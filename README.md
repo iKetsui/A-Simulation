@@ -21,3 +21,4 @@ DONE- [important]: add getopt
 
 DONE- [important]: saparate and orginize files for both WIN and linux versions 
 
+# A-simulation
