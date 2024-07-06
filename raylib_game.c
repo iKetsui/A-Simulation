@@ -43,11 +43,11 @@ int main(void)
         }
     }
 
-            grid[random2][random2].color = RED;
-            grid[random2][random2].isActive = true;
+
             grid[random][random].color = GREEN;
             grid[random][random].isActive = true;
-
+            grid[random2][random2].color = RED;
+            grid[random2][random2].isActive = true;
 
     while (!WindowShouldClose()) 
     {
