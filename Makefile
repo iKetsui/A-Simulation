@@ -3,5 +3,5 @@ CFLAGS = -I/usr/local/include -I. -L/usr/local/lib -lraylib -lm -lpthread -ldl -
 
 all: run
 
-run: getopt.c raylib_game.c 
-		$(CC) raylib_game.c getopt.c -o POMODORO $(CFLAGS)
+run: raylib_game.c 
+		$(CC) raylib_game.c -o A-STAR $(CFLAGS)
